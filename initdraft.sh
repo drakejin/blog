@@ -46,7 +46,7 @@ POSTPATH="${BINPATH}/_drafts"
 DIST_FOLDER="$POSTPATH"
 
 # Set your blog URL
-BLOG_URL="https://www.rossener.com/"
+BLOG_URL="http://blog.drakejin.me/"
 
 # Set your assets URL
 ASSETS_URL="assets/img/"

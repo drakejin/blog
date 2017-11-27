@@ -1,24 +1,24 @@
 # Site Settings
-title: Jekflix | A theme for Jekyll
-email: youremail@xyz.com
-description: Some text about your blog.
-baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
-url: "https://www.rossener.com" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+title: DrakeJin 
+email: dydwls121200@gmail.com
+description: 세상을 재미있게 만들기 위한 기술
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://blog.drakejin.me" # the base hostname & protocol for your site
+google_analytics: "UA-90708702-1"
 
 # User Settings
-username: Jekflix
-user_description: Some text about you.
-disqus_username: disqus_username
+username: DrakeJin
+user_description: 재미없으면 하기 싫어욧.
+disqus_username: blog-drakejin-me
 
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: drake-jin
+facebook_username: drakejin
+# twitter_username: twitter_username
+# instagram_username: instagram_username
+linkedin_username: drakejin
+medium_username: dydwls121200
 
 # Build settings
 markdown: kramdown
@@ -32,11 +32,13 @@ gems:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: 홈
     url: /
-  - title: About
+  - title: 소개
     url: /about/
-  - title: Contact
+  - title: 나
+    url: /me/
+  - title: E-Mail
     url: /contact/
 
 # Exclude my node related stuff

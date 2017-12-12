@@ -3,6 +3,19 @@
 
 See the [demo here](https://www.rossener.com/jekflix-template).
 
+
+## 설치 Dependency
+
+``` bash
+
+$ 기타 등등 또 더 있었는데 까먹음. 
+$ brew install libxml2 # nokogiri dependency on MAC OS
+$ brew install libxslt # nokogiri dependency on MAC OS
+# https://github.com/bundler/bundler/issues/5207
+# nokogiri 시발 존나 설치안됨... 으ㅇ아아아
+$ bundle install
+```
+
 ## What is it?
 
 A template for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance ;)

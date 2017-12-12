@@ -2,8 +2,9 @@
 title: DrakeJin 
 email: dydwls121200@gmail.com
 description: 세상을 재미있게 만들기 위한 기술
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://blog.drakejin.me" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "http://blog.drakejin.me" # the base hostname & protocol for your site
+url: "http://localhost:3000" # the base hostname & protocol for your site
 google_analytics: "UA-90708702-1"
 
 # User Settings
@@ -34,12 +35,12 @@ gems:
 links:
   - title: 홈
     url: /
-  - title: 소개
-    url: /about/
+  - title: 블로그 소개
+    url: /about
   - title: 나
-    url: /me/
-  - title: E-Mail
-    url: /contact/
+    url: /me
+  - title: 질문?
+    url: /contact
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

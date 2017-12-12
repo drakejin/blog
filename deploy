@@ -1,0 +1,11 @@
+bundle exec jekyll build
+
+cp -r ./_site/* ../drake-jin.github.io/
+
+cd ../drake-jin.github.io
+
+git add . 
+git commit -m $1
+git push origin master
+
+cd ../blog

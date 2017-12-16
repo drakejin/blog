@@ -4,8 +4,9 @@ cp -r ./_site/* ../drake-jin.github.io/
 
 cd ../drake-jin.github.io
 
+GIT_MSG=$1
 git add . 
-git commit -m $1
+git commit -m "${GIT_MSG}"
 git push origin master
 
-cd ../blogs
+cd ../blog

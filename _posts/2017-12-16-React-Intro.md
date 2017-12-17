@@ -13,9 +13,7 @@ introduction: 시작하기전에 이론충이 한번 되어보는것은 어떠�
 
 # 주의
 
-이 블로그의 내용은 대단히 주관적인 내용으로써, 양질의 글을 읽었지만 똥글이 나오는건 
-인간의 생리학적 기능인 배설 활동 중 똥만드는 interface를 상속한 나머지
-주체할 수 없는 불가항력의 생리활동이 왕성한건 어쩔 수 없음을 미리 알려드립니다.
+이 블로그의 내용은 대단히 주관적인 내용으로써, 양질의 글을 읽었지만 똥글이 나오는건 인간의 생리학적 기능인 배설 활동 중 똥만들기 interface를 상속했기 때문입니다.
 
 # React는 왜 존재하는가?
 
@@ -102,17 +100,17 @@ VirtualDOM과 DOM은 화면에 그려지는 그 순간의 차이는 다르지 �
 
 https://github.com/FEDevelopers/tech.description/wiki/%EA%B0%80%EC%83%81-%EB%8F%94%EA%B3%BC-%EB%8F%94%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90
 
-*위 링크가 차이점이라기보다. 서로 다른것을 설명하는 것 같다. 마치 오랜지와 감귤의 특징 나열 같은?  다른 링크가 있었으면 좋겠습니다.*
+*위 링크가 차이점이라기보다. 서로 다른것을 설명하는 것 같다. 마치 오랜지와 감귤의 특징 나열 같은?  다른 링크가 링크가 있으면 덧글로 알려주시면 감사하겠습니다.좋겠습니다.*
 
 
 [관련자료:VirtualDOM vs IncrementalDOM vs Ember’s Glimmer: Fight](https://auth0.com/blog/face-off-virtual-dom-vs-incremental-dom-vs-glimmer/)
 
 
-> 1. Virtual DOM provides a series of Javascript calls that tell the library how to build an in-memory DOM tree and how to update it when data bound to it changes
->     - VirtualDOM 자바스크립트 종류들은 데이터가 변경될 때, 라이브러리를 통해 in-memory에 있는 돔 트리에게 어떻게 수정할것인지 알려준다. 즉 돔트리가 인메모리에 있다.
-> 2. The central piece of Virtual DOM is its smart diffing algorithm: once the differences in the model have been mapped to the in-memory copy of the DOM, the algorithm finds the minimum number of operations required to update the real DOM
->     - Virtual DOM의 핵심은 smart diffing algorithm을 통해 하나의 다른 모델(데이터)에 매핑되어있는 인메모리 안에 있는 돔 객체를 하나 복사한다.  그 알고리즘은 최소의 연산으로 요구되는 실제 돔객체를 찾아서 수정한다.
-> 여기서의 두 개의 돔 트리는, 1개는 일반 DOM 트리 이며, 하나는 React 의 Virtual DOM Tree이다.
+1. Virtual DOM provides a series of Javascript calls that tell the library how to build an in-memory DOM tree and how to update it when data bound to it changes
+    - VirtualDOM 자바스크립트 종류들은 데이터가 변경될 때, 라이브러리를 통해 in-memory에 있는 돔 트리에게 어떻게 수정할것인지 알려준다. 즉 돔트리가 인메모리에 있다.
+2. The central piece of Virtual DOM is its smart diffing algorithm: once the differences in the model have been mapped to the in-memory copy of the DOM, the algorithm finds the minimum number of operations required to update the real DOM
+    - Virtual DOM의 핵심은 smart diffing algorithm을 통해 하나의 다른 모델(데이터)에 매핑되어있는 인메모리 안에 있는 돔 객체를 하나 복사한다.  그 알고리즘은 최소의 연산으로 요구되는 실제 돔객체를 찾아서 수정한다.
+여기서의 두 개의 돔 트리는, 1개는 일반 DOM 트리 이며, 하나는 React 의 Virtual DOM Tree이다.
 
 ![diffing process](https://i.imgur.com/QRtqIui.png)
 

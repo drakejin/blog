@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "ReactJS 코드를 에디터에 쓰기 전에"
-description: 시작하기전에 이론충이 한번 되어보는것은 어떠한지?
+title: "ReactJS의 Virtual DOM과 Repaint, Reflow"
+description: Virtual DOM의 동작 원리와 Virtual DOM이 repaint와 reflow연산을 줄이기 위한 노력에 대해 알아보자
 image: 'https://i.imgur.com/yRH0zfw.png'
 category: 'reactjs'
 tags:
 - javascript
 - react
-twitter_text: ReactJS 코드를 에디터에 쓰기 전에
-introduction: 시작하기전에 이론충이 한번 되어보는것은 어떠한지?
+- virtualDOM
+twitter_text: "ReactJS의 Virtual DOM과 Repaint, Reflow"
+introduction: Virtual DOM의 동작 원리와 Virtual DOM이 repaint와 reflow연산을 줄이기 위한 노력에 대해 알아보자
 ---
 
 ### 주의

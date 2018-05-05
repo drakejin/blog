@@ -11,60 +11,42 @@ twitter_text: attractive opinion - UnitTest
 introduction: Why I've been attracted by UnitTest. Let's know that.
 ---
 
-### 주의
+### Caution
 
-이 블로그의 내용은 대단히 주관적인 내용이 가득합니다.
-그리고 `양질의 글`을 읽었지만 `똥글`이 나오는건 제 미숙함 때문입니다. 
-그럼에도 불구하고 피드백 많이 주신다면 자세히 조사하여 반영하도록 하겠습니다.
-또한.. 가능한 링크로 올려놓은 자료들은 반드시 열어보시기 바랍니다. 분명 도움이 될 것입니다.
-(- -)(_ _)
+All of words are just my personal opinions. It's not a correct answer.
+So, If you have any advice, Leave a comment. I will appreciate of that and accept. Seriously I swear.
 
+# Why I didn't use Unit Test
 
-# intro
+#### I need more time to use that within production.
 
-블록체인에 대해 알아보자! 라고 생각하게 된 계기는 회사에서 어떤 내용으로 투자를 받을 수 있을까 고민하던 도중에 '블록체인을 활용해서 서비스를 해보자'에 대한 내용이 우세해서 투자를 받기위해 문서를 만들어야 하고 그 문서를 만들기 위해 나는 공부를 해야했다. 의도는 아름답지 않았지만, 이전에도 블록체인이 뭐길래 그렇게 말이 많은걸까에 대해서는 궁금했기 때문에 '얼씨구 좋다. 공부나 하자'라는 생각이다. 
+> "How to prove your work is fine?"
 
-내가 지식을 얻은 곳은 주로 위키북스 출판사의 '블록체인 구조와 이론 예제로 배우는 핀테크 핵심기술'이며, 그 이외에는 Google 검색이다.
+It's the start point of this post. 
 
+That's my senior's words. I shocked about those cause' I never thought about that. My boss is not an engineer and just wanna see the results. So, I don't need to offer proof of my work. Actually, When I heard TDD, BDD and Unit Test, I just think that I should have to learn that. That's why the job market wants to take engineers who can write using Unit Test codes. It's just all what I know about those.
 
-# 내 멋대로 정의 preview
+My situation is in the workplace what I have a responsibility of CTO or Head of Developer Team. Yeah, I'm working on Start-up Team. That meant I have the right to order something, decide something and plan something. How pressure of it!  I'm just freshman If I were in any company! Anyway, That meant my boss grant me the rights.
 
-- **비트코인:** 사토시 나카모토(익명)가 발표한 논문을 구현한 가상화폐, 블록체인위에서 작동하고 있다.
-- **블록체인:** 블록체인의 블록들을 연결한 형태
-- **블록체인의 블록:** 거래, 전송(트랜젝션)의 내용이 담긴 블록(원장)
-- **원장:** 블록체인의 블록에 들어 있는 거래 내역을 원장이라 한다
-- **분산원장:** 블록체인은 블록을 모든 노드와 동일하게 공유한다. 그렇기에 분산이라 부르며 공유한 원장은 모든 노드의 내용과 동일하다. 때문에 블록체인의 원장을 분산원장이라 부른다.
-- **트랜젝션:** 블록체인에서는 전송,거래를 트랜젝션이라 표현한다.
-- **채굴:** 전송,거래가 발생하면 그 내역에 대해 승인을 해주며 승인된 거래내역을 원장이라 부르며 이 원장을 저장하기위해 블록을 새로 만들어낸다. 그리고 생성된 블록에 원장의 내용을 저장한다. 그의 보상으로 채굴자에게는 보상(코인 및 토큰)을 보상으로 준다.
-- **비잔티움 문제:** 이건 비잔티움 문제에 대해 먼저 알아보고나서 내 정의를 보면 좋겠지만 그래도 정의를 내리자면 '전송했지만 시스템 상으로 전송이 성공적으로 되지 않은 그런 문제들'
-- **블록체인의 구성요소:** P2P Network,  합의 알고리즘, 전자서명과 Hashfunction
-- **합의 알고리즘:** 블록체인 네트워크에서 참가자(채굴자)들이 하나의 결과에 대한 합의를 얻기 위한 알고리즘. 어떤 채굴자가 생성해낸 블록에 대해서 정당성을 검토하며 블록체인 네트워크에서 공유하고 있는 블록들에 반영하기위해 합의 알고리즘을 사용한다.
-- **P2P Network:** 개인과 개인간의 통신, 서로가 때에 따라 서버가 되고 클라이언트가 된다. 
+I was the first developer when I joined this team. So, I should do everything about IT. Moreover, installing Wi-Fi is my work. At that time, My team was so busy and have tough schedules. The business cycle wasn't waiting for me. The plans for service function had been changed. So, I had to deploy many times each day. That's why I couldn't choose to use Unit Test.
 
+# Why are we have to do the Unit Test
 
+### 1. "How to prove your work is fine?"
 
-# 블록체인에 대해 알아보자
+These codes will be documentation for the developer or their head of a team.
 
-[블록체인: 위키피디아](https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8)
+### 2. "It will help to focus on your task correctly."
 
-> 블록체인(영어: block chain, blockchain)은 관리 대상 데이터를 '블록'이라고 하는 소규모 데이터들이 P2P 방식을 기반으로 생성된 체인 형태의 연결고리 기반 분산 데이터 저장환경에 저장되어 누구도 임의로 수정될 수 없고 누구나 변경의 결과를 열람할 수 있는 분산 컴퓨팅 기술 기반의 데이터 위변조 방지 기술이다.
-> 이는 근본적으로 분산 데이터 저장기술의 한 형태로, 지속적으로 변경되는 데이터를 모든 참여 노드에 기록한 변경 리스트로서 분산 노드의 운영자에 의한 임의 조작이 불가능하도록 고안되었다. 잘 알려진 블록체인의 응용 사례는 암호화폐의 거래과정을 기록하는 탈중앙화된 전자장부로서 비트코인이 있다. 이 거래 기록은 의무적으로 암호화되고 블록체인 소프트웨어를 실행하는 컴퓨터상에서 운영된다. 비트코인을 비롯한 대부분의 암호화폐들이 블록체인 기술 형태에 기반하고 있다.
+If you were a beginner, I think You're in confuse of order many tasks on a project. Then, Your commit history might be messed up by chaos classifying task. Those are meant that you couldn't regulate your works. But, UnitTest can help to arrange and focus on your tasks.
 
-## 블록체인의 동작
+### 3. "I know it can't have 100 percent coverage. But, It's able to cover what I do."
 
-1. 블록체인 네트워크 참가자로서 계좌를 사용하는 사용자 A~F와 블록을 만드는 승인자(채굴자)가 있는 구성을 가정한다.
+  I know it can't have 100 percent coverage.
+  But, It's able to cover what I do.
+  All of the codes can't avoid of coupling.
+  If you changed any code, It will affect the others.
+  UnitTest can check the others what those have any problem.
 
-2. 사용자 A,B,E 가 송금을 의뢰(트랜젝션)한다. 트랜젝션을 발행할 때 본인 확인을 위한 전자 서명을 첨부한다.
+That's why I learn about UnitTest.
 
-3. 발행된 트랜잭션은 P2P 네트워크를 통해 참가자 전원(승인자들)에게 브로드 캐스트 된다.
-
-4. 트랜잭션을 받은 승인자는 전자서명을 확인하고 블록을 생성하기 위한 요건을 만족시키는 '해답'을 찾기 시킨다.
-
-5. 처음 조건을 만족하는 해답을 발견한 승인자(채굴자)는 생성한 블록을 참가자 전원에게 브로드 캐스트 한다.
-
-6. 블록을 받은 각 노드는 정당한 블록인지 검증한다. 구체적으로는 이전 블록 정보+해답을 매개변수로 해시값을 구해 조건을 만족하는지 확인한다. 조건을 만족한다면 수신한 블록을 자신의 로컬 디스크에 있는 블록체인에 추가한다.
-
-
-# 참고자료
-
-- 각 화폐별 성격 https://steemit.com/kr/@neoteny/2rx8q6

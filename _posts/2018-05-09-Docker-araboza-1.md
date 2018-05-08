@@ -91,6 +91,9 @@ Docker의 핵심기술은리눅스의 컨테이너 기술을 이용한 컨테이
 
 - [성능이 궁금한 분들을 위한 Docker 가상화의 원리와 장단점](http://www.opennaru.com/openshift/docker/what-is-the-difference-between-docker-lxd-and-lxc/)
 
+![가상화와 컨테이너 기술의 차이](https://i.imgur.com/RedNSRT.png)
+
+
 **4.그럼 컨테이너하고 이미지는 무슨 차이?**
 
 - 이미지
@@ -166,7 +169,7 @@ Docker의 컨테이너는 Dockerfile을 실행한 결과물을 말하며, 여기
 
 # Immutable Infrastructure 
 
-![다스케테 이무타브루쨩!](blob:https://imgur.com/9d6c878f-5f65-4df3-9a3f-a1a57193ea36)
+![다스케테 이무타브루쨩!](https://i.imgur.com/OBqfX2d.png)
 
 #### 등장배경
 

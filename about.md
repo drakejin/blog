@@ -5,13 +5,27 @@ description: Some description.
 permalink: /about/
 ---
 
-<img itemprop="image" class="img-rounded" src="http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_200,w_200/v1504971955/neo_ruqszk.jpg" alt="Your Name">
+이 블로그는 DrakeJin의 블로그입니다.
 
-## About
+> 타인을 위해서 개발 관련 기술을 포스팅하자!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+가 이 블로그의 목표입니다.
+
+타인을 위해서 글을 쓰고 계속해서 글에 대한 매무새를 가다듬는데도... 여전히 똥글이군요.
+
+역시 글을 쓴다는건 어려운것인군용...
+
+이전에 한... 2015년부터 2017년 초까지 쓴 모든 포스팅들 끽해봐야 40 ~ 50개? 정도 되려나...
+하지만 그것들은 순전히 제 관상용이고 남에게 자랑용으로 쓴거라서 정말이지 형편없는 글귀밖에 없더라구요.
+
+그런데 이번의 블로그는 정말 남을위해서 글을 써보고 싶었고
+
+글의 문장과 매무새를 가다듬고 가다듬어도 전하고자 하는 것을 정확하게 전달하기가 정말 어렵더라구요.
+
+그리고 제가 알고 있는지식이 정확한지도 다시확인하게 되더라구요..
+
+그러므로.. 아무쪼록... 글을 읽다가 마음에 안들거나 하는부분이 있다면 정말 가차없이 쪼인트 까주세요...
+
+물론 쪼인트까느라 귀찮겠지만.. 만약 쪼인트 까주신다면 정말 성실히 조사해서 다시 반영해 보이겠습니다.
+
+여기까지 방문해주셔서 감사합니다..!

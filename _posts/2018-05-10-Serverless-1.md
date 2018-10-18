@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "서버리스에 대해 알아보기 전에..."
+title: "서버리스에 대해 알아보기 전에...(1/2)"
 description: monolithic만 물고 빨면 생산성 뽕맞고 행복할줄 알았지... 하지만 웬걸? 운영올라가고 트래픽 몰리니까 불꽃놀이마냥 클러스터링 돌린 인스턴스 빵빵터지네 ㅎㅎㅎ 타마야~~~
 image: 'https://i.imgur.com/eFv895d.png'
 category: 'architecture'

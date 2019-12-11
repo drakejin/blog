@@ -9,7 +9,7 @@
 ``` bash
 $ git clone https://github.com/drake-jin/blog
 $ git clone https://github.com/drake-jin/drake-jin.github.io
-$ gem install bundle
+$ gem install bundler -v '< 2'
 $ bundle install
 $ yarn install
 $ gulp

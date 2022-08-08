@@ -7,4 +7,4 @@ permalink: /me/
 
 > 아카이빙 해버렸습니다.
 
-[2017 drakejin](https://github.drakejin.me/2017-drakejin)
+[2017 drakejin](https://blog.drakejin.me/2017-drakejin)

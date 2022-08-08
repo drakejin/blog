@@ -46,7 +46,7 @@ POSTPATH="${BINPATH}/_posts"
 DIST_FOLDER="$POSTPATH"
 
 # Set your blog URL
-BLOG_URL="https://github.drakejin.me/"
+BLOG_URL="https://blog.drakejin.me/"
 
 # Set your assets URL
 ASSETS_URL="assets/img/"

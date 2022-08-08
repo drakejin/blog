@@ -3,7 +3,7 @@ title: DrakeJin
 email: dydwls121200@gmail.com
 description: 행복을 찾아서
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.drakejin.me/blog" # the base hostname & protocol for your site
+url: "https://blog.drakejin.me" # the base hostname & protocol for your site
 # url: "http://localhost:3000" # the base hostname & protocol for your site
 google_analytics: "UA-90708702-1"
 

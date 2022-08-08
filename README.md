@@ -7,9 +7,11 @@
 ## init this project
 
 ``` bash
-$ git clone https://github.com/drakejin/blog
-$ git clone https://github.com/drakejin/drakejin.github.io
-$ gem install bundler -v '< 2'
+docker-compose up --build -d
+docker exec -it blog /bin/sh
+
+# in docker
+$ cd /app
 $ bundle install
 $ yarn install
 $ gulp

@@ -6,5 +6,6 @@ node_modules
 _drafts
 vendor
 .bundle
+.jekyll-cache
 
 .direnv

@@ -7,8 +7,8 @@
 ## init this project
 
 ``` bash
-$ git clone https://github.com/drake-jin/blog
-$ git clone https://github.com/drake-jin/drake-jin.github.io
+$ git clone https://github.com/drakejin/blog
+$ git clone https://github.com/drakejin/drakejin.github.io
 $ gem install bundler -v '< 2'
 $ bundle install
 $ yarn install

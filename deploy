@@ -1,8 +1,8 @@
 bundle exec jekyll build
 
-cp -r ./_site/* ../drake-jin.github.io/
+cp -r ./_site/* ../drakejin.github.io/
 
-cd ../drake-jin.github.io
+cd ../drakejin.github.io
 
 GIT_MSG=$1
 git add . 
